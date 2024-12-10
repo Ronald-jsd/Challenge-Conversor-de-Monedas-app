@@ -68,14 +68,6 @@ Se uso el **Principio SOLID** de responsabilidad unica.
 
 ---
 
-## 🖥️ **Cómo Ejecutar**
-
-### **Requisitos previos**:
-1. Tener instalado **Java 17** o superior. ☕
-2. Conexión a internet para consultar las tasas de cambio. 🌐
-3. (Opcional) Un IDE como IntelliJ IDEA o Eclipse para una experiencia más fluida. 🚀
----
-
 ## 📎 **Notas Técnicas**
 - Se utiliza la librería `javax.swing` para la interfaz gráfica.
 - Se utilizo el IDE de Intellij y el IDE de eclipse para la realización de la interfaz grafica.
