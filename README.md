@@ -40,15 +40,15 @@ Se uso el **Principio SOLID** de responsabilidad unica.
 ```
 📁 src
 ├── 📦 consultaApi
-│   ├── ConsultaMoneda.java   // Manejo de las consultas a la API de monedas.
+│   ├── ConsultaMoneda.java   ( Manejo de las consultas a la API de monedas)
 ├── 📦 modelRecord
-│   ├── Moneda.java           // Modelo para gestionar las tasas de conversión.
+│   ├── Moneda.java          ( Modelo para gestionar las tasas de conversión)
 ├── 📦 principalConsola
-│   ├── ConversorApp.java     // Aplicación principal basada en consola.
+│   ├── ConversorApp.java     (Aplicación principal basada en consola)
 ├── 📦 principalGui
-│   ├── PrincipalSwing.java   // Aplicación principal con interfaz gráfica.
+│   ├── PrincipalSwing.java   (Aplicación principal con interfaz gráfica)
 └── 📦 generadorDeArchivo
-    ├── GeneradorDeArchivo.java // Generador de resúmenes y reportes.
+    ├── GeneradorDeArchivo.java (Generador de resúmenes y reportes)
 ```
 
 
