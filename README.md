@@ -30,7 +30,7 @@ rápida mediante el consumo de una API de monedas y gurda los datos en un archiv
 ![Captura de pantalla 2024-12-10 095611](https://github.com/user-attachments/assets/2c3a5c4e-6950-46ae-810c-3ee1746defc6)
 
 - Consulta las tasas de cambio en tiempo real mediante una API externa. 🌐📡
-- Los datos son guardados en un archivo .JSON 
+- Los datos son guardados en un archivo .JSON .
 
 ---
 
@@ -74,32 +74,11 @@ Se uso el **Principio SOLID** de responsabilidad unica.
 1. Tener instalado **Java 17** o superior. ☕
 2. Conexión a internet para consultar las tasas de cambio. 🌐
 3. (Opcional) Un IDE como IntelliJ IDEA o Eclipse para una experiencia más fluida. 🚀
-
-### **Pasos para correr el proyecto**:
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/conversor-monedas.git
-   cd conversor-monedas
-   ```
-2. Compila el código:
-   ```bash
-   javac -d bin src/**/*.java
-   ```
-3. Ejecuta la aplicación de consola:
-   ```bash
-   java -cp bin principalConsola.ConversorApp
-   ```
-4. Para usar la interfaz gráfica:
-   ```bash
-   java -cp bin principalGui.PrincipalSwing
-   ```
-
 ---
-
 
 ## 📎 **Notas Técnicas**
 - Se utiliza la librería `javax.swing` para la interfaz gráfica.
-- Se utilizo el IDE de Intellij y el IDE de eclipse para la realización de la interfaz grafica
+- Se utilizo el IDE de Intellij y el IDE de eclipse para la realización de la interfaz grafica.
 - Las tasas de conversión son obtenidas en tiempo real utilizando una API externa.
 - El manejo de errores está implementado para garantizar la estabilidad de la aplicación. 🛡️
 
